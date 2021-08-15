@@ -1,0 +1,46 @@
+body {
+    color: white;
+  }
+  header {
+    background-color: tomato;
+    text-align: center;
+    
+  }
+  
+  a {
+    color:whitesmoke;
+  }
+  
+  nav {
+    background-color: rosybrown; 
+    font-size: xx-large;
+    padding: 5px;
+  }
+  
+  main {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  
+  .article1 {
+    background-color: coral;
+    padding: 10px;
+    margin: 5px;
+    }
+  
+  .article2 {
+    background-color: coral;
+    padding: 10px;
+    margin: 5px;
+    }
+  
+  footer {
+    background-color: darkgray;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  
