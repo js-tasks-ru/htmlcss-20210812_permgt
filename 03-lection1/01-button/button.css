@@ -1,11 +1,8 @@
 /* Стилизация кнопки */
 /* Rectangle */
-.button_primary {
+.button {
     height: 48px;
     width: 189px;
-    left: 0px;
-    top: 0px;
-    border: 0;
     border-radius: 8px;
     font-family: Roboto;
     font-size: 16px;
@@ -14,125 +11,46 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FFFFFF; 
-    cursor: pointer;
-    background: #4263EB;
-    }
-
-.button_primary:hover {
-    background: #2342C0;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-
-
-.button_primary_disabled {
-    height: 48px;
-    width: 189px;
-    left: 0px;
-    top: 0px;
-    border: 0;
-    border-radius: 8px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF; 
-    cursor: default;
-    background: #97a6e0;
-    }
-
-.button_secondary {
-    height: 48px;
-    width: 189px;
-    left: 0px;
-    top: 0px;
-    border: 0;
-    border-radius: 8px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF; 
+.button:hover {
     cursor: pointer;
-    background: #7048E8;
-    }
+}
 
-.button_secondary:hover {
-    background: #5028C6;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    }
+.button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
 
-.button_secondary_disabled {
-    height: 48px;
-    width: 189px;
-    left: 0px;
-    top: 0px;
+.btn_primary {
     border: 0;
-    border-radius: 8px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF; 
-    cursor: default;
-    background: #ac9fd3;
-    }
+    color:var(--white);
+    background-color:var(--primary);
+}
 
+.btn_primary:hover:enabled {
+    background-color:var(--primary-hover);
+}   
 
-.button_alternate {
-    height: 48px;
-    width: 189px;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    border: 1px solid #ACB5BD;
-    box-sizing: border-box;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #495057; 
-    cursor: pointer;
-    background: #E5E5E5;
+.btn_secondary {
+    border: 0;
+    color:var(--white);
+    background-color:var(--secondary);
+}
 
-    }
+.btn_secondary:hover:enabled {
+    background-color:var(--secondary-hover);
+}    
 
-.button_alternate:hover {
-    border: 1px solid #212429;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    }
+.btn_alternate {
+    border: 1px solid var(--grey-3);
+    color:var(--grey-4);
+    background-color:var(--alternative);
+    
+}
 
-.button_alternate_disabled {
-    height: 48px;
-    width: 189px;
-    left: 0px;
-    top: 0px;
-    border: 1px solid #ACB5BD;
-    border-radius: 8px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #DDE2E5; 
-    cursor: default;
-    background: white;
-    }
-
+.btn_alternate:hover:enabled {
+    border: 1px solid var(--black);
+}
 
 
