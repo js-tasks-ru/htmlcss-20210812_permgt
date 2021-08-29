@@ -1,13 +1,8 @@
 /* Стилизация аккордеона */
-/* Убираем стандартный маркер Chrome */
-details summary::-webkit-details-marker {
-    display: none
-  }
-  /* Убираем стандартный маркер Firefox */
-  details > summary {
-    list-style: none;
-  }
-  
+.accordion__summary::-webkit-details-marker {
+  display: none;
+}
+
 .accordion {
   width: 730px;
   min-height: 72px;
@@ -15,14 +10,13 @@ details summary::-webkit-details-marker {
   border: 1px solid var(--grey-3);
   box-sizing: border-box;
   border-radius: 8px;
-  display: block;
   margin-bottom: 8px;
 }
   
-.accordion__header {
+.accordion__summary {
   padding-top: 24px;
   padding-left: 32px;
-  padding-right: 537px;
+  padding-right: 32px;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -31,23 +25,21 @@ details summary::-webkit-details-marker {
   letter-spacing: 0em;
   text-align: left;
   color: var(--black);
+  display: block;
 }
 
 .accordion__details {
   padding-left: 32px;
   margin-right: 49px;
-  
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: left;  
-  
   color: var(--black);
 }
 
 .accordion:last-child {
       margin-bottom: 0;
 }
-
