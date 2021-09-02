@@ -1,6 +1,7 @@
 .footer {
-padding: 71px 383px 136px 417px;
+padding: 71px 0 136px 0;
 text-align:center;
+background-color: var(--white);
 }
 
 .footer__title {
