@@ -4,22 +4,25 @@
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-    width: 579px;
+    width: 100%;
     height: 192px;
     display: flex;
     flex-direction: column;
 }
   
-.skeleton__box1 {
+.skeleton__ellipse-short-average-box {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
+    
 }
 
-.skeleton__box2 {
+.skeleton__short-average-box {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     
   }
   
@@ -29,29 +32,30 @@
     height: 64px;
     width: 64px;
     margin-right: 16px;
+    flex-shrink: 0;
 }
 
-.skeleton__lines {
+.skeleton__line {
     height: 20px;
     background-color: var(--grey-2);
 }
   
-.skeleton__line1 {
-    width: 172px;
+.skeleton__short-line {
+    width: 30%;
     margin-bottom: 8px;
   }
 
-.skeleton__line2 {
-    width: 257px;
+.skeleton__average-line {
+    width: 50%;
 } 
   
-.skeleton__line3 {
-    width: 515px;   
+.skeleton__penultimate-line {
+    width: 100%;
     margin-bottom: 8px;
 }
   
-.skeleton__line4 {
-    width: 515px;
+.skeleton__last-line {
+    width: 100%;
 }
     
  
