@@ -3,6 +3,33 @@
     background-color: var(--white);
 }
 
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__logo-square {
+    width: 30px;
+    height: 30px;
+    background-color: var(--black);
+}
+
+.header__logo-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 112px;
+    background-color: var(--black);
+}
+
+.header__logo-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 32px 0 0 32px;
+    border-color: transparent transparent transparent var(--black);
+}
+
 .header__title {
     font-family: Inter;
     font-style: normal;
