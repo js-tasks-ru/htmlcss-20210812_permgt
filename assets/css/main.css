@@ -28,6 +28,16 @@
     --alternative: var(--white);
 }
 
+main {
+    flex-grow: 1;
+    background: #F9FAFC;
+    padding: 48px 0 48px;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
 }
