@@ -25,20 +25,20 @@
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    line-height: 20 px;
+    line-height: 20px;
     color:var(--blue-0-3);
 }
 
-.calendar__item-day {
+.calendar__item_day {
     color: var(-blue-0-1);
 }
 
-.calendar__item-active {
+.calendar__item_active {
     color: var(--white);
     background-color: var(--blue);
 }
 
-.calendar__item-between-active {
+.calendar__item_between_active {
     color: var(--white);
     background-color: var(--blue-0-2);
     opacity: 0.2;
